@@ -1,0 +1,55 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --heroColor: #1f2937;
+    --heroMainSize: 48px;
+    --heroMainWeight: 900;
+    --heroMainColor: #f9faf8;
+    --heroLinkSize: 18px;
+    --heroLinkColor: #e5e7eb;
+    --headSize: 24px;
+    --headColor: var(--heroMainColor);
+    --buttonColor: #3882f6;
+    --infoSize: 36px;
+    --infoWeight: 900;
+    --infoColor: #1f2937;
+    --quoteBack: #e5e7eb;
+    --quoteSize: 36px;
+    --quoteWeight: 100;
+    --quoteColor: #1f2937;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    background: var(--heroColor);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#hero #logo {
+    font-size: var(--headSize);
+    color: var(--headColor);
+    margin-right: auto;
+    margin-left: 10%;
+}
+
+#hero .link {
+    margin-right: 10px;
+    font-size: var(--heroLinkSize);
+    color: var(--heroLinkColor);
+}
+
+#hero .link.three {
+    margin-right: 15%;
+}
+
