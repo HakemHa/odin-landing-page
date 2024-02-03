@@ -100,3 +100,36 @@ button {
     color: #e5e7eb;
     cursor: pointer;
 }
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    gap: 20px;
+}
+
+#squares {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10%;
+}
+
+#squares div {
+    width: 15%;
+    text-align: center;
+    color: #000;
+}
+
+#squares .square {
+    width: 100%;
+    aspect-ratio: 1;
+    border: 2px solid #3882f6;
+    border-radius: 12px;
+}
+
+
+
